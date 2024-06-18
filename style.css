@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto Flex', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #313131;
+}
+.cotainer {
+    background: #EAECEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 1369px;
+    margin-top: 21px;
+}
+.Group-1 {
+    display: flex;
+}
+.Group-1 .logo {
+    display: flex;
+}
