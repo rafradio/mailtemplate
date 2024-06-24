@@ -25,6 +25,6 @@ function funcMax(a, b) {
     return a > b ? a : b;
 }
 
-const reversedString = str => str.split("").reduce((acc, char) => char + acc, "");
+const reversedString = str => str.split("").reduce((reversed, char) => char + reversed, "");
 
-console.log(reversedString("sela"));
+console.log(reversedString("selamoc"));
